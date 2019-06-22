@@ -1,0 +1,42 @@
+:root {
+  --primaryColor: #f09d51;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --mainSpacing: 0.1rem;
+  --mainTransition: all 0.3s linear;
+}
+.body{
+  background: var(--mainWhite);
+}
+
+.product-small-img img{
+	height: 92px;
+	margin: 10px;
+	cursor: pointer;
+	display: block;
+}
+.product-small-img{
+	float: left;
+}
+.product{
+  height: auto;
+	position: absolute;
+}
+.img-container img{
+	height: 500px;
+}
+.img-container{
+	float: right; 
+	padding: 10px;
+}
+.product-small-img img{
+	height: 92px;
+	margin: 10px;
+	cursor: pointer;
+	display: block;
+	opacity: .6; 
+}
+.product-small-img img:hover{
+	opacity: 1;
+}
